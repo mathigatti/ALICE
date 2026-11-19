@@ -4,8 +4,8 @@
   "description": "Conversá en español con el chatbot clásico A.L.I.C.E.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f2fcfa",
-  "theme_color": "#ADFAEF",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/icon-192.png",

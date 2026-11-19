@@ -4,8 +4,8 @@
   "description": "Chat in English with the classic A.L.I.C.E. chatbot.",
   "start_url": "/en/",
   "display": "standalone",
-  "background_color": "#f2fcfa",
-  "theme_color": "#ADFAEF",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/icon-192.png",
