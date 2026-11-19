@@ -15,6 +15,28 @@ site/bots/<lang>/config.json   bot properties, substitutions, UI strings
 
 Local: `cd site && python3 -m http.server` → http://localhost:8000
 
+## Spanish
+
+The language selector includes Spanish: a merged community corpus (Sara,
+Sarabot, InMoov, Naochat, AIML-Argento and compatible Rosie rules), plus local
+conversation and memory improvements. It runs locally just like English.
+
+See [Spanish sources, credits and integration notes](docs/ESPANOL.md) for pinned
+references, selection criteria, licenses, known limitations and maintenance.
+The Spanish footer also links to downloadable sources and credits.
+
+Rebuild after editing Spanish rules or configuration:
+
+```sh
+python3 tools/import_spanish.py
+python3 tools/build_brain.py es
+node --test tests/chatbot.test.js  # Node.js 20+
+python3 tools/package_spanish.py
+```
+
+Edit `aiml/es/90_local.aiml` for curated overrides; `10_imported.aiml` is generated.
+The importer uses the vendored source snapshots and requires no network access.
+
 ## Adding a language (e.g. Spanish)
 
 1. Put the AIML files in `aiml/es/` (e.g. a Spanish AIML set, or a translation of ALICE).
@@ -26,9 +48,13 @@ Local: `cd site && python3 -m http.server` → http://localhost:8000
    - `locale` (`es-AR`, used by `<date>`), `connect` (init input, or `""`),
      `defaultPredicate` (value of unset predicates; ALICE uses `OM`).
    - Set `"stripAccents": true` if the AIML patterns are written without accents
-     (input and patterns are then both folded: `QUÉ` → `QUE`).
+     (input and patterns are then both folded: `QUÉ` → `QUE`, preserving `Ñ`).
 3. `python3 tools/build_brain.py es`
 4. Add `{ "code": "es", "label": "Español" }` to `site/bots/index.json`.
 
-The selector appears automatically once there are 2+ languages; the initial language follows the
-browser's language. Each language keeps its own chat history/predicates in localStorage.
+The selector appears automatically once there are 2+ languages. `/` and `/es/`
+open Spanish; `/en/` opens English, regardless of a previously saved preference.
+Each entry point has static translated SEO/social metadata, canonical and hreflang
+links. `/es/` is an alias with `/` as its canonical URL. Keep their HTML metadata
+and the matching bot configuration in sync when editing descriptions.
+Each language keeps its own chat history/predicates in localStorage.

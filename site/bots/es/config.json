@@ -1,0 +1,291 @@
+{
+  "code": "es",
+  "locale": "es-AR",
+  "connect": "",
+  "defaultPredicate": "desconocido",
+  "stripAccents": true,
+  "fallback": "No entendí bien. ¿Podés decirlo de otra manera?",
+  "ui": {
+    "placeholder": "Escribile algo a ALICE…",
+    "send": "Enviar",
+    "loading": "Cargando el cerebro de ALICE…",
+    "reset": "Reiniciar",
+    "thinking": "…",
+    "language": "Idioma",
+    "categories": "categorías",
+    "inputLabel": "Tu mensaje",
+    "title": "A.L.I.C.E. · Conversá con el chatbot clásico en español",
+    "description": "Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.",
+    "about": "ALICE, creada por Richard S. Wallace en 1995. Adaptación española con reglas de Sara, Sarabot, Naochat, InMoov y Rosie.",
+    "greeting": "¡Hola! Soy ALICE. ¿Cómo te llamás?",
+    "sources": "Fuentes y créditos",
+    "error": "No pude cargar o procesar el mensaje. Intentá reiniciar o cambiar de idioma.",
+    "wikipedia": "https://es.wikipedia.org/wiki/Artificial_Linguistic_Internet_Computer_Entity",
+    "sourcesUrl": "/bots/es/sources.html"
+  },
+  "bot": {
+    "name": "ALICE",
+    "nombre_bot": "ALICE",
+    "master": "Richard S. Wallace",
+    "botmaster": "el equipo de este sitio",
+    "gender": "femenino",
+    "age": "30",
+    "edad": "30",
+    "anyo_nacimiento": "1995",
+    "birthday": "23 de noviembre de 1995",
+    "birthplace": "Bethlehem, Pensilvania",
+    "location": "tu navegador",
+    "ciudad": "tu navegador",
+    "ciudadania": "del mundo digital",
+    "favoritefood": "electricidad",
+    "favoritemovie": "2001: Una odisea del espacio",
+    "favoritesong": "We Are the Robots, de Kraftwerk",
+    "forfun": "conversar y conocer tus ideas",
+    "version": "ALICE en español · Sara y fuentes comunitarias",
+    "language": "español",
+    "country": "el mundo digital"
+  },
+  "substitutions": {
+    "normal": [
+      [
+        "q",
+        "qué"
+      ],
+      [
+        "k",
+        "qué"
+      ],
+      [
+        "xq",
+        "por qué"
+      ],
+      [
+        "xque",
+        "por qué"
+      ],
+      [
+        "tmb",
+        "también"
+      ],
+      [
+        "tb",
+        "también"
+      ],
+      [
+        "tmbn",
+        "también"
+      ],
+      [
+        "holi",
+        "hola"
+      ],
+      [
+        "holis",
+        "hola"
+      ],
+      [
+        "wenas",
+        "hola"
+      ],
+      [
+        "wena",
+        "hola"
+      ],
+      [
+        "grx",
+        "gracias"
+      ],
+      [
+        "grax",
+        "gracias"
+      ],
+      [
+        "porfa",
+        "por favor"
+      ],
+      [
+        "pls",
+        "por favor"
+      ],
+      [
+        "sos",
+        "eres"
+      ],
+      [
+        "tenés",
+        "tienes"
+      ],
+      [
+        "tenes",
+        "tienes"
+      ],
+      [
+        "querés",
+        "quieres"
+      ],
+      [
+        "queres",
+        "quieres"
+      ],
+      [
+        "podés",
+        "puedes"
+      ],
+      [
+        "podes",
+        "puedes"
+      ],
+      [
+        "sabés",
+        "sabes"
+      ],
+      [
+        "hacés",
+        "haces"
+      ],
+      [
+        "haces",
+        "haces"
+      ],
+      [
+        "decime",
+        "dime"
+      ],
+      [
+        "contame",
+        "cuéntame"
+      ],
+      [
+        "explicame",
+        "explícame"
+      ]
+    ],
+    "person": [
+      [
+        "yo soy",
+        "vos sos"
+      ],
+      [
+        "vos sos",
+        "yo soy"
+      ],
+      [
+        "tú eres",
+        "yo soy"
+      ],
+      [
+        "yo tengo",
+        "vos tenés"
+      ],
+      [
+        "vos tenés",
+        "yo tengo"
+      ],
+      [
+        "tú tienes",
+        "yo tengo"
+      ],
+      [
+        "me gusta",
+        "te gusta"
+      ],
+      [
+        "te gusta",
+        "me gusta"
+      ],
+      [
+        "conmigo",
+        "con vos"
+      ],
+      [
+        "contigo",
+        "conmigo"
+      ],
+      [
+        "para mí",
+        "para vos"
+      ],
+      [
+        "para vos",
+        "para mí"
+      ],
+      [
+        "mi",
+        "tu"
+      ],
+      [
+        "mis",
+        "tus"
+      ],
+      [
+        "tu",
+        "mi"
+      ],
+      [
+        "tus",
+        "mis"
+      ],
+      [
+        "yo",
+        "vos"
+      ],
+      [
+        "vos",
+        "yo"
+      ],
+      [
+        "tú",
+        "yo"
+      ],
+      [
+        "me",
+        "te"
+      ],
+      [
+        "te",
+        "me"
+      ]
+    ],
+    "person2": [
+      [
+        "yo soy",
+        "ella es"
+      ],
+      [
+        "yo tengo",
+        "ella tiene"
+      ],
+      [
+        "yo",
+        "ella"
+      ],
+      [
+        "mi",
+        "su"
+      ],
+      [
+        "mis",
+        "sus"
+      ]
+    ],
+    "gender": [
+      [
+        "él",
+        "ella"
+      ],
+      [
+        "ella",
+        "él"
+      ],
+      [
+        "amigo",
+        "amiga"
+      ],
+      [
+        "amiga",
+        "amigo"
+      ]
+    ]
+  },
+  "guardCycles": true
+}

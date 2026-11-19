@@ -1,0 +1,347 @@
+[
+  {
+    "id": "sarabot",
+    "repository": "AlexR1712/Sarabot",
+    "commit": "6917cb779614bab11d9c97f08535f8065b4ec93f",
+    "files": [
+      {
+        "name": "65percent.aiml",
+        "path": "standard/65percent.aiml",
+        "sha": "df7d9e011ef510bad873927da2786556bca369d3"
+      },
+      {
+        "name": "chismes.aiml",
+        "path": "standard/chismes.aiml",
+        "sha": "2040840fc59164474febcfdd6c7e9434ed641fe8"
+      },
+      {
+        "name": "conocimiento.aiml",
+        "path": "standard/conocimiento.aiml",
+        "sha": "3c3d61c8b4d1a93a300bb12f5fc41e83b40809d0"
+      },
+      {
+        "name": "default.aiml",
+        "path": "standard/default.aiml",
+        "sha": "40660478137b0e36d7adab7cf833dc664bebb6e1"
+      },
+      {
+        "name": "deportes.aiml",
+        "path": "standard/deportes.aiml",
+        "sha": "413bfa158d5c133b4399d691c4971afe9adc6496"
+      },
+      {
+        "name": "geografia.aiml",
+        "path": "standard/geografia.aiml",
+        "sha": "a305d7755c6ab65b5681775cea29490752d0a6a0"
+      },
+      {
+        "name": "inventos.aiml",
+        "path": "standard/inventos.aiml",
+        "sha": "0a8d9fe3de5d50756aae0e3c92616291246b300b"
+      },
+      {
+        "name": "nombres.aiml",
+        "path": "standard/nombres.aiml",
+        "sha": "efcef661262f839f311c528e653839f5fd9ae474"
+      },
+      {
+        "name": "numeros.aiml",
+        "path": "standard/numeros.aiml",
+        "sha": "562f51acb1382adcc97b17a6bcfbdb9eb9571181"
+      },
+      {
+        "name": "reptiles.aiml",
+        "path": "standard/reptiles.aiml",
+        "sha": "da6b84c898156dc2fd0df09896dd9ad27e08939a"
+      },
+      {
+        "name": "sara.aiml",
+        "path": "standard/sara.aiml",
+        "sha": "e4f41d732f36e10d47f837c8f4dc2ab8da3af4a3"
+      },
+      {
+        "name": "sara_1.aiml",
+        "path": "standard/sara_1.aiml",
+        "sha": "0210cc0d2e14da8e9360847c4da1a5e364ab36c3"
+      },
+      {
+        "name": "sara_2.aiml",
+        "path": "standard/sara_2.aiml",
+        "sha": "4d415b65b23fd873f0eba7bb775f083360b01cad"
+      },
+      {
+        "name": "sexo.aiml",
+        "path": "standard/sexo.aiml",
+        "sha": "a4c644cb1c30c3c44dd1d9763e67fcc4b8c40839"
+      },
+      {
+        "name": "si-no.aiml",
+        "path": "standard/si-no.aiml",
+        "sha": "66631f019335fe525cbbf90950e7ef60eb5a8965"
+      },
+      {
+        "name": "sufijos.aiml",
+        "path": "standard/sufijos.aiml",
+        "sha": "d28f6e029cca3cbca32eb3593524fc78a2906f05"
+      },
+      {
+        "name": "turing.aiml",
+        "path": "standard/turing.aiml",
+        "sha": "38e53b3bdcbd60b23e5f1a1841f355b901f5fd51"
+      }
+    ]
+  },
+  {
+    "id": "argento",
+    "repository": "IAARhub/AIML-Argento",
+    "commit": "49137bac7fbdfe0ed2a9513fea23cb5e0ab6e2a9",
+    "files": [
+      {
+        "name": "default.aiml",
+        "path": "default.aiml",
+        "sha": "24a9b2dc45c19d0c2b5966212658ff75fc895f2c"
+      },
+      {
+        "name": "nombres.aiml",
+        "path": "nombres.aiml",
+        "sha": "8ff98d0a2c51eaecc4ab498a83c39dceaaf53f3b"
+      },
+      {
+        "name": "numeros.aiml",
+        "path": "numeros.aiml",
+        "sha": "581b58884e6213c193ff274b0078a45ad507d6b6"
+      },
+      {
+        "name": "sara.aiml",
+        "path": "sara.aiml",
+        "sha": "f2f3da9aeb32894dec3558a086ed425be668df2f"
+      },
+      {
+        "name": "sara_srai.aiml",
+        "path": "sara_srai.aiml",
+        "sha": "61dac83a655d8c4e415281e5880d8541a814ae6c"
+      },
+      {
+        "name": "sexo.aiml",
+        "path": "sexo.aiml",
+        "sha": "c02db67aae56dc21dea347506b0e6e5ecfc0422e"
+      }
+    ]
+  },
+  {
+    "id": "inmoov",
+    "repository": "MyRobotLab/InMoov2",
+    "commit": "e5c05b9272cd25edada136db1d2e3cb908ad0d2a",
+    "files": [
+      {
+        "name": "defaut.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/defaut.aiml",
+        "sha": "555dddffde98002b788709a13f18f36e912a50d7"
+      },
+      {
+        "name": "nombres.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/nombres.aiml",
+        "sha": "449cd2ef4d35c627726e6700b9a41384a7118cf3"
+      },
+      {
+        "name": "numeros.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/numeros.aiml",
+        "sha": "cbf396ebebfdf8164a78d6d5f51dcb65ccc1cf69"
+      },
+      {
+        "name": "sara.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/sara.aiml",
+        "sha": "aba013d57e99932c3c399ac5da9fe0ef018c155e"
+      },
+      {
+        "name": "sara_srai_1.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/sara_srai_1.aiml",
+        "sha": "717eb9b0434ea6140aaad6fcc58d482175536e20"
+      },
+      {
+        "name": "sara_srai_2.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/sara_srai_2.aiml",
+        "sha": "63d786e74d98d96a5a518f6d0bd3a9fe1f0e7075"
+      },
+      {
+        "name": "sexo.aiml",
+        "path": "peers/ProgramAB/es-ES/aiml/sexo.aiml",
+        "sha": "82a6619d76da4cc259927c4053ee2326d2659eae"
+      }
+    ]
+  },
+  {
+    "id": "naochat",
+    "repository": "iekumdario/naochat",
+    "commit": "16a02d4a3ff7f8f391921bfa211ad582c8535e51",
+    "files": [
+      {
+        "name": "65percent.aiml",
+        "path": "aiml-set/65percent.aiml",
+        "sha": "df7d9e011ef510bad873927da2786556bca369d3"
+      },
+      {
+        "name": "chismes.aiml",
+        "path": "aiml-set/chismes.aiml",
+        "sha": "2040840fc59164474febcfdd6c7e9434ed641fe8"
+      },
+      {
+        "name": "conocimiento.aiml",
+        "path": "aiml-set/conocimiento.aiml",
+        "sha": "3c3d61c8b4d1a93a300bb12f5fc41e83b40809d0"
+      },
+      {
+        "name": "default.aiml",
+        "path": "aiml-set/default.aiml",
+        "sha": "47bd42c2076c6d9f652b3c865832e90587ac0eda"
+      },
+      {
+        "name": "deportes.aiml",
+        "path": "aiml-set/deportes.aiml",
+        "sha": "413bfa158d5c133b4399d691c4971afe9adc6496"
+      },
+      {
+        "name": "geografia.aiml",
+        "path": "aiml-set/geografia.aiml",
+        "sha": "94adb5afa21ad48cd5428e7d881a847c3f3e4984"
+      },
+      {
+        "name": "inventos.aiml",
+        "path": "aiml-set/inventos.aiml",
+        "sha": "0a8d9fe3de5d50756aae0e3c92616291246b300b"
+      },
+      {
+        "name": "nombres.aiml",
+        "path": "aiml-set/nombres.aiml",
+        "sha": "15fa0c95d433994d13217b7a737c9efd93d2c86b"
+      },
+      {
+        "name": "numeros.aiml",
+        "path": "aiml-set/numeros.aiml",
+        "sha": "4b277063d8e408246b20c5753ea32b89af93a98c"
+      },
+      {
+        "name": "reptiles.aiml",
+        "path": "aiml-set/reptiles.aiml",
+        "sha": "da6b84c898156dc2fd0df09896dd9ad27e08939a"
+      },
+      {
+        "name": "sara.aiml",
+        "path": "aiml-set/sara.aiml",
+        "sha": "9a34b812988c0f4224e6d3c9788d886f7e197729"
+      },
+      {
+        "name": "sara_srai.aiml",
+        "path": "aiml-set/sara_srai.aiml",
+        "sha": "60fba2e47e984799767b17390d38c5c108253727"
+      },
+      {
+        "name": "si-no.aiml",
+        "path": "aiml-set/si-no.aiml",
+        "sha": "66631f019335fe525cbbf90950e7ef60eb5a8965"
+      },
+      {
+        "name": "sufijos.aiml",
+        "path": "aiml-set/sufijos.aiml",
+        "sha": "d28f6e029cca3cbca32eb3593524fc78a2906f05"
+      },
+      {
+        "name": "turing.aiml",
+        "path": "aiml-set/turing.aiml",
+        "sha": "38e53b3bdcbd60b23e5f1a1841f355b901f5fd51"
+      }
+    ]
+  },
+  {
+    "id": "player",
+    "repository": "SofiaPiar/chatbotplayer",
+    "commit": "529ac5d83b077bdbb90eedf68dffb7cbe52304e3",
+    "files": [
+      {
+        "name": "Geografia.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/Geografia.aiml",
+        "sha": "8fe3f549685a883245dd88e875b425f55807cd14"
+      },
+      {
+        "name": "Inventos.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/Inventos.aiml",
+        "sha": "5991c9f113d4723f6ddc6e17d5b8c7f77cbaed02"
+      },
+      {
+        "name": "Numeros.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/Numeros.aiml",
+        "sha": "60182f010379b0cd8b7ace51bba7073fde1d46ee"
+      },
+      {
+        "name": "Politica.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/Politica.aiml",
+        "sha": "582c45dd4af021fac8db37eddbcf3ba82c1e139b"
+      },
+      {
+        "name": "bot_profile.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/bot_profile.aiml",
+        "sha": "eb843be7e9b2580a58babfbc41dcc067dc083641"
+      },
+      {
+        "name": "client_profile.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/client_profile.aiml",
+        "sha": "bef47a06e7d0cbd811bf5c37c144e206886e70a6"
+      },
+      {
+        "name": "conocimientos.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/conocimientos.aiml",
+        "sha": "c94f713ad7a88035c62ded6680fc61c1a7ffd1a5"
+      },
+      {
+        "name": "dialogo.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/dialogo.aiml",
+        "sha": "0410f03256859a631a4259974fd989ebf0ad5bdb"
+      },
+      {
+        "name": "fecha.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/fecha.aiml",
+        "sha": "ed91a13ef55fef62bb626334312a6df564f902cb"
+      },
+      {
+        "name": "inapropiado.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/inapropiado.aiml",
+        "sha": "f0db99baa4efcfd9dd5e8ece906d6efed9158550"
+      },
+      {
+        "name": "insultos.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/insultos.aiml",
+        "sha": "d88320cc93e859c973e40aaeb2708e6f2d89ee9d"
+      },
+      {
+        "name": "personalidad.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/personalidad.aiml",
+        "sha": "270df3c3836e382b6b2ec3a1efc3dd3c4736f342"
+      },
+      {
+        "name": "reducciones2.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/reducciones2.aiml",
+        "sha": "bcb46e806c721915aeba79eb74310928fdd297fb"
+      },
+      {
+        "name": "reducciones3.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/reducciones3.aiml",
+        "sha": "736ac79903e0028d7c46a0c9ece1f8434ae45fc5"
+      },
+      {
+        "name": "sino.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/sino.aiml",
+        "sha": "d0a1c85b3b469d57f99122be49ece4df69c449b6"
+      },
+      {
+        "name": "that.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/that.aiml",
+        "sha": "c4145d463557db39416bbb734a568c06e546eaf7"
+      },
+      {
+        "name": "utilidades.aiml",
+        "path": "ChatBotPlayer/app/src/main/assets/Player/aiml/utilidades.aiml",
+        "sha": "666a81f93142d1530ee7aecd36456607d892cdae"
+      }
+    ]
+  }
+]

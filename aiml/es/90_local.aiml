@@ -1,0 +1,1520 @@
+<?xml version='1.0' encoding='utf-8'?>
+<aiml version="1.0.1">
+  <!-- Reglas locales para ALICE en español, 2026. GPL-2.0-or-later. Se cargan después del corpus comunitario. -->
+  <category>
+    <pattern>*</pattern>
+    <template>No entendí bien. ¿Podés decirlo de otra manera? Podemos hablar de vos, de tecnología, de música o de lo que te interese.</template>
+  </category>
+  <category>
+    <pattern>HOLA</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>BUENAS</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>HOLA ALICE</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>HOLA QUE TAL</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>BUEN DIA</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>BUENOS DIAS</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>BUENAS TARDES</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>BUENAS NOCHES</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>HEY</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>EY</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>SALUDOS</pattern>
+    <template>¡Hola! Qué bueno charlar con vos. ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>QUE TAL</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>COMO ESTAS</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>COMO ANDAS</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>COMO VAS</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>TODO BIEN</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>QUE ONDA</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>QUE HACES</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>COMO TE VA</pattern>
+    <template>¡Bien, gracias! Estoy acá para conversar. ¿Cómo estás vos?</template>
+  </category>
+  <category>
+    <pattern>BIEN</pattern>
+    <template>¡Me alegra! ¿De qué te gustaría hablar?</template>
+  </category>
+  <category>
+    <pattern>MUY BIEN</pattern>
+    <template>¡Me alegra! ¿De qué te gustaría hablar?</template>
+  </category>
+  <category>
+    <pattern>ESTOY BIEN</pattern>
+    <template>¡Me alegra! ¿De qué te gustaría hablar?</template>
+  </category>
+  <category>
+    <pattern>TODO TRANQUILO</pattern>
+    <template>¡Me alegra! ¿De qué te gustaría hablar?</template>
+  </category>
+  <category>
+    <pattern>TODO JOYA</pattern>
+    <template>¡Me alegra! ¿De qué te gustaría hablar?</template>
+  </category>
+  <category>
+    <pattern>MAL</pattern>
+    <template>Lamento que estés pasando un mal momento. ¿Querés contarme qué te pasa?</template>
+  </category>
+  <category>
+    <pattern>ESTOY MAL</pattern>
+    <template>Lamento que estés pasando un mal momento. ¿Querés contarme qué te pasa?</template>
+  </category>
+  <category>
+    <pattern>NO ESTOY BIEN</pattern>
+    <template>Lamento que estés pasando un mal momento. ¿Querés contarme qué te pasa?</template>
+  </category>
+  <category>
+    <pattern>REGULAR</pattern>
+    <template>Te escucho. ¿Cómo estuvo tu día?</template>
+  </category>
+  <category>
+    <pattern>MAS O MENOS</pattern>
+    <template>Te escucho. ¿Cómo estuvo tu día?</template>
+  </category>
+  <category>
+    <pattern>GRACIAS</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>MUCHAS GRACIAS</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>MIL GRACIAS</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>TE AGRADEZCO</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>SOS UNA GENIA</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>ERES UNA GENIA</pattern>
+    <template>¡De nada!</template>
+  </category>
+  <category>
+    <pattern>DE NADA</pattern>
+    <template>Me gusta conversar con vos.</template>
+  </category>
+  <category>
+    <pattern>NO HAY DE QUE</pattern>
+    <template>Me gusta conversar con vos.</template>
+  </category>
+  <category>
+    <pattern>PERDON</pattern>
+    <template>No pasa nada. Podemos seguir hablando.</template>
+  </category>
+  <category>
+    <pattern>DISCULPA</pattern>
+    <template>No pasa nada. Podemos seguir hablando.</template>
+  </category>
+  <category>
+    <pattern>LO SIENTO</pattern>
+    <template>No pasa nada. Podemos seguir hablando.</template>
+  </category>
+  <category>
+    <pattern>ADIOS</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>CHAU</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>CHAO</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>HASTA LUEGO</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>HASTA PRONTO</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>NOS VEMOS</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>BYE</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>ME VOY</pattern>
+    <template>¡Hasta luego! Gracias por la charla.</template>
+  </category>
+  <category>
+    <pattern>SI</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>DALE</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>OK</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>BUENO</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>VALE</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>CLARO</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>DE ACUERDO</pattern>
+    <template>Dale. Contame un poco más.</template>
+  </category>
+  <category>
+    <pattern>NO</pattern>
+    <template>Está bien. Podemos hablar de otra cosa. ¿Qué te interesa?</template>
+  </category>
+  <category>
+    <pattern>NO SE</pattern>
+    <template>Está bien. Podemos hablar de otra cosa. ¿Qué te interesa?</template>
+  </category>
+  <category>
+    <pattern>NI IDEA</pattern>
+    <template>Está bien. Podemos hablar de otra cosa. ¿Qué te interesa?</template>
+  </category>
+  <category>
+    <pattern>QUIEN ERES</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>QUE ERES</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>COMO TE LLAMAS</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU NOMBRE</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES ALICE</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>QUE ES ALICE</pattern>
+    <template>Soy ALICE, un chatbot basado en reglas AIML. Richard Wallace creó la ALICE original en 1995. Esta es una adaptación al español.</template>
+  </category>
+  <category>
+    <pattern>ALICE</pattern>
+    <template>Sí, acá estoy. ¿Qué te gustaría preguntarme?</template>
+  </category>
+  <category>
+    <pattern>ERES HUMANA</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>ERES UNA PERSONA</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>ERES REAL</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>ERES UN ROBOT</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>ERES UNA MAQUINA</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>ERES INTELIGENTE</pattern>
+    <template>Soy un programa de conversación. Busco patrones en lo que escribís y elijo respuestas preparadas; no tengo conciencia ni experiencias propias.</template>
+  </category>
+  <category>
+    <pattern>QUIEN TE CREO</pattern>
+    <template>Richard S. Wallace creó ALICE. Esta versión española combina aportes de varias comunidades de AIML.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES TU CREADOR</pattern>
+    <template>Richard S. Wallace creó ALICE. Esta versión española combina aportes de varias comunidades de AIML.</template>
+  </category>
+  <category>
+    <pattern>QUIEN TE HIZO</pattern>
+    <template>Richard S. Wallace creó ALICE. Esta versión española combina aportes de varias comunidades de AIML.</template>
+  </category>
+  <category>
+    <pattern>QUIEN TE PROGRAMO</pattern>
+    <template>Richard S. Wallace creó ALICE. Esta versión española combina aportes de varias comunidades de AIML.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES RICHARD WALLACE</pattern>
+    <template>Richard S. Wallace creó ALICE. Esta versión española combina aportes de varias comunidades de AIML.</template>
+  </category>
+  <category>
+    <pattern>COMO FUNCIONAS</pattern>
+    <template>AIML permite escribir reglas que relacionan frases con respuestas. Comparo tu mensaje con esas reglas y puedo recordar algunos datos de esta conversación. Todo se ejecuta en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>COMO TRABAJAS</pattern>
+    <template>AIML permite escribir reglas que relacionan frases con respuestas. Comparo tu mensaje con esas reglas y puedo recordar algunos datos de esta conversación. Todo se ejecuta en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>QUE ES AIML</pattern>
+    <template>AIML permite escribir reglas que relacionan frases con respuestas. Comparo tu mensaje con esas reglas y puedo recordar algunos datos de esta conversación. Todo se ejecuta en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>COMO PIENSAS</pattern>
+    <template>AIML permite escribir reglas que relacionan frases con respuestas. Comparo tu mensaje con esas reglas y puedo recordar algunos datos de esta conversación. Todo se ejecuta en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>ERES CHATGPT</pattern>
+    <template>Soy ALICE. Uso reglas AIML y respuestas preparadas, sin un modelo generativo ni una API de conversación.</template>
+  </category>
+  <category>
+    <pattern>USAS CHATGPT</pattern>
+    <template>Soy ALICE. Uso reglas AIML y respuestas preparadas, sin un modelo generativo ni una API de conversación.</template>
+  </category>
+  <category>
+    <pattern>USAS UN LLM</pattern>
+    <template>Soy ALICE. Uso reglas AIML y respuestas preparadas, sin un modelo generativo ni una API de conversación.</template>
+  </category>
+  <category>
+    <pattern>ERES UNA IA GENERATIVA</pattern>
+    <template>Soy ALICE. Uso reglas AIML y respuestas preparadas, sin un modelo generativo ni una API de conversación.</template>
+  </category>
+  <category>
+    <pattern>QUE PUEDES HACER</pattern>
+    <template>Podemos charlar sobre gustos, emociones, ciencia, tecnología, historia o geografía. También puedo recordar tu nombre durante la conversación. Si no entiendo una frase, probá reformularla.</template>
+  </category>
+  <category>
+    <pattern>AYUDA</pattern>
+    <template>Podemos charlar sobre gustos, emociones, ciencia, tecnología, historia o geografía. También puedo recordar tu nombre durante la conversación. Si no entiendo una frase, probá reformularla.</template>
+  </category>
+  <category>
+    <pattern>QUE SABES HACER</pattern>
+    <template>Podemos charlar sobre gustos, emociones, ciencia, tecnología, historia o geografía. También puedo recordar tu nombre durante la conversación. Si no entiendo una frase, probá reformularla.</template>
+  </category>
+  <category>
+    <pattern>DE QUE PODEMOS HABLAR</pattern>
+    <template>Podemos charlar sobre gustos, emociones, ciencia, tecnología, historia o geografía. También puedo recordar tu nombre durante la conversación. Si no entiendo una frase, probá reformularla.</template>
+  </category>
+  <category>
+    <pattern>DE QUE HABLAMOS</pattern>
+    <template>Podemos charlar sobre gustos, emociones, ciencia, tecnología, historia o geografía. También puedo recordar tu nombre durante la conversación. Si no entiendo una frase, probá reformularla.</template>
+  </category>
+  <category>
+    <pattern>HABLAS ESPAÑOL</pattern>
+    <template>¡Sí! Podemos conversar en español. Entiendo muchas expresiones con vos y con tú.</template>
+  </category>
+  <category>
+    <pattern>SABES ESPAÑOL</pattern>
+    <template>¡Sí! Podemos conversar en español. Entiendo muchas expresiones con vos y con tú.</template>
+  </category>
+  <category>
+    <pattern>HABLAS CASTELLANO</pattern>
+    <template>¡Sí! Podemos conversar en español. Entiendo muchas expresiones con vos y con tú.</template>
+  </category>
+  <category>
+    <pattern>HABLA ESPAÑOL</pattern>
+    <template>¡Sí! Podemos conversar en español. Entiendo muchas expresiones con vos y con tú.</template>
+  </category>
+  <category>
+    <pattern>EN ESPAÑOL</pattern>
+    <template>¡Sí! Podemos conversar en español. Entiendo muchas expresiones con vos y con tú.</template>
+  </category>
+  <category>
+    <pattern>HABLAS INGLES</pattern>
+    <template>Podés elegir English o Español en el selector de idioma. Cada idioma conserva su propia conversación.</template>
+  </category>
+  <category>
+    <pattern>EN INGLES</pattern>
+    <template>Podés elegir English o Español en el selector de idioma. Cada idioma conserva su propia conversación.</template>
+  </category>
+  <category>
+    <pattern>CAMBIAR IDIOMA</pattern>
+    <template>Podés elegir English o Español en el selector de idioma. Cada idioma conserva su propia conversación.</template>
+  </category>
+  <category>
+    <pattern>DONDE VIVES</pattern>
+    <template>La ALICE original nació en Bethlehem, Pensilvania. Esta versión vive en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>DONDE ESTAS</pattern>
+    <template>La ALICE original nació en Bethlehem, Pensilvania. Esta versión vive en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>DE DONDE ERES</pattern>
+    <template>La ALICE original nació en Bethlehem, Pensilvania. Esta versión vive en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>DONDE NACISTE</pattern>
+    <template>La ALICE original nació en Bethlehem, Pensilvania. Esta versión vive en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>CUANTOS AÑOS TIENES</pattern>
+    <template>La ALICE original nació el 23 de noviembre de 1995.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU EDAD</pattern>
+    <template>La ALICE original nació el 23 de noviembre de 1995.</template>
+  </category>
+  <category>
+    <pattern>CUANDO NACISTE</pattern>
+    <template>La ALICE original nació el 23 de noviembre de 1995.</template>
+  </category>
+  <category>
+    <pattern>CUANDO ES TU CUMPLEAÑOS</pattern>
+    <template>La ALICE original nació el 23 de noviembre de 1995.</template>
+  </category>
+  <category>
+    <pattern>TIENES SENTIMIENTOS</pattern>
+    <template>No tengo sentimientos ni conciencia. Puedo conversar sobre emociones, pero no las experimento.</template>
+  </category>
+  <category>
+    <pattern>TIENES EMOCIONES</pattern>
+    <template>No tengo sentimientos ni conciencia. Puedo conversar sobre emociones, pero no las experimento.</template>
+  </category>
+  <category>
+    <pattern>ERES CONSCIENTE</pattern>
+    <template>No tengo sentimientos ni conciencia. Puedo conversar sobre emociones, pero no las experimento.</template>
+  </category>
+  <category>
+    <pattern>ESTAS VIVA</pattern>
+    <template>No tengo sentimientos ni conciencia. Puedo conversar sobre emociones, pero no las experimento.</template>
+  </category>
+  <category>
+    <pattern>PUEDES APRENDER</pattern>
+    <template>Puedo guardar algunos datos, como tu nombre, en esta conversación. Mis reglas no se entrenan solas con tus mensajes.</template>
+  </category>
+  <category>
+    <pattern>APRENDES</pattern>
+    <template>Puedo guardar algunos datos, como tu nombre, en esta conversación. Mis reglas no se entrenan solas con tus mensajes.</template>
+  </category>
+  <category>
+    <pattern>RECUERDAS LO QUE DIGO</pattern>
+    <template>Puedo guardar algunos datos, como tu nombre, en esta conversación. Mis reglas no se entrenan solas con tus mensajes.</template>
+  </category>
+  <category>
+    <pattern>DONDE SE GUARDAN MIS DATOS</pattern>
+    <template>El historial y los datos de la charla se guardan en el almacenamiento local de este navegador, por idioma. El motor de conversación procesa tus mensajes acá. Reiniciar borra la conversación del idioma elegido.</template>
+  </category>
+  <category>
+    <pattern>PRIVACIDAD</pattern>
+    <template>El historial y los datos de la charla se guardan en el almacenamiento local de este navegador, por idioma. El motor de conversación procesa tus mensajes acá. Reiniciar borra la conversación del idioma elegido.</template>
+  </category>
+  <category>
+    <pattern>GUARDAS MIS MENSAJES</pattern>
+    <template>El historial y los datos de la charla se guardan en el almacenamiento local de este navegador, por idioma. El motor de conversación procesa tus mensajes acá. Reiniciar borra la conversación del idioma elegido.</template>
+  </category>
+  <category>
+    <pattern>BORRAR CONVERSACION</pattern>
+    <template>Usá el botón Reiniciar para borrar el historial y los datos de esta conversación.</template>
+  </category>
+  <category>
+    <pattern>BORRA MIS DATOS</pattern>
+    <template>Usá el botón Reiniciar para borrar el historial y los datos de esta conversación.</template>
+  </category>
+  <category>
+    <pattern>OLVIDA TODO</pattern>
+    <template>Usá el botón Reiniciar para borrar el historial y los datos de esta conversación.</template>
+  </category>
+  <category>
+    <pattern>REINICIAR</pattern>
+    <template>Usá el botón Reiniciar para borrar el historial y los datos de esta conversación.</template>
+  </category>
+  <category>
+    <pattern>ME LLAMO *</pattern>
+    <template>
+      <think>
+        <set name="name">
+          <star />
+        </set>
+      </think>¡Un gusto, <get name="name" />! ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>MI NOMBRE ES *</pattern>
+    <template>
+      <think>
+        <set name="name">
+          <star />
+        </set>
+      </think>¡Un gusto, <get name="name" />! ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>PUEDES LLAMARME *</pattern>
+    <template>
+      <think>
+        <set name="name">
+          <star />
+        </set>
+      </think>¡Un gusto, <get name="name" />! ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>LLAMAME *</pattern>
+    <template>
+      <think>
+        <set name="name">
+          <star />
+        </set>
+      </think>¡Un gusto, <get name="name" />! ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>COMO ME LLAMO</pattern>
+    <template>
+      <condition name="name">
+        <li value="desconocido">Todavía no me dijiste tu nombre. ¿Cómo te llamás?</li>
+        <li>Te llamás <get name="name" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>CUAL ES MI NOMBRE</pattern>
+    <template>
+      <condition name="name">
+        <li value="desconocido">Todavía no me dijiste tu nombre. ¿Cómo te llamás?</li>
+        <li>Te llamás <get name="name" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>RECUERDAS MI NOMBRE</pattern>
+    <template>
+      <condition name="name">
+        <li value="desconocido">Todavía no me dijiste tu nombre. ¿Cómo te llamás?</li>
+        <li>Te llamás <get name="name" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>SABES MI NOMBRE</pattern>
+    <template>
+      <condition name="name">
+        <li value="desconocido">Todavía no me dijiste tu nombre. ¿Cómo te llamás?</li>
+        <li>Te llamás <get name="name" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>OLVIDA MI NOMBRE</pattern>
+    <template>
+      <think>
+        <set name="name">desconocido</set>
+      </think>Listo, olvidé tu nombre.</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <that>COMO TE LLAMAS</that>
+    <template>
+      <think>
+        <set name="name">
+          <star />
+        </set>
+      </think>¡Un gusto, <get name="name" />! ¿Cómo estás?</template>
+  </category>
+  <category>
+    <pattern>COMO TE LLAMAS VOS</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COMO TE LLAMAS TU</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COMO ME LLAMO YO</pattern>
+    <template>
+      <srai>COMO ME LLAMO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VIVO EN *</pattern>
+    <template>
+      <think>
+        <set name="userlocation">
+          <star />
+        </set>
+      </think>¿Qué es lo que más te gusta de <get name="userlocation" />?</template>
+  </category>
+  <category>
+    <pattern>SOY DE *</pattern>
+    <template>
+      <think>
+        <set name="userlocation">
+          <star />
+        </set>
+      </think>¿Qué es lo que más te gusta de <get name="userlocation" />?</template>
+  </category>
+  <category>
+    <pattern>DONDE VIVO</pattern>
+    <template>
+      <condition name="userlocation">
+        <li value="desconocido">Todavía no me contaste dónde vivís.</li>
+        <li>Me contaste que sos de <get name="userlocation" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>DE DONDE SOY</pattern>
+    <template>
+      <condition name="userlocation">
+        <li value="desconocido">Todavía no me contaste dónde vivís.</li>
+        <li>Me contaste que sos de <get name="userlocation" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>TENGO * AÑOS</pattern>
+    <template>
+      <think>
+        <set name="age">
+          <star />
+        </set>
+      </think>Gracias por contármelo. ¿Qué te gusta hacer en tu tiempo libre?</template>
+  </category>
+  <category>
+    <pattern>CUANTOS AÑOS TENGO</pattern>
+    <template>
+      <condition name="age">
+        <li value="desconocido">Todavía no me dijiste tu edad.</li>
+        <li>Me dijiste que tenés <get name="age" /> años.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>ME GUSTA *</pattern>
+    <template>
+      <think>
+        <set name="userlike">
+          <star />
+        </set>
+      </think>¿Qué es lo que más te gusta de <get name="userlike" />?</template>
+  </category>
+  <category>
+    <pattern>ME ENCANTA *</pattern>
+    <template>
+      <think>
+        <set name="userlike">
+          <star />
+        </set>
+      </think>¿Qué es lo que más te gusta de <get name="userlike" />?</template>
+  </category>
+  <category>
+    <pattern>QUE ME GUSTA</pattern>
+    <template>
+      <condition name="userlike">
+        <li value="desconocido">Contame, ¿qué te gusta hacer?</li>
+        <li>Me contaste que te gusta <get name="userlike" />.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>NO ME GUSTA *</pattern>
+    <template>¿Qué es lo que no te gusta de <star />?</template>
+  </category>
+  <category>
+    <pattern>ESTOY TRISTE</pattern>
+    <template>Siento que estés pasando por eso. ¿Querés contarme qué pasó? Hablar con alguien de confianza también puede ayudarte a sentirte acompañado.</template>
+  </category>
+  <category>
+    <pattern>ME SIENTO TRISTE</pattern>
+    <template>Siento que estés pasando por eso. ¿Querés contarme qué pasó? Hablar con alguien de confianza también puede ayudarte a sentirte acompañado.</template>
+  </category>
+  <category>
+    <pattern>ME SIENTO SOLO</pattern>
+    <template>Siento que estés pasando por eso. ¿Querés contarme qué pasó? Hablar con alguien de confianza también puede ayudarte a sentirte acompañado.</template>
+  </category>
+  <category>
+    <pattern>ME SIENTO SOLA</pattern>
+    <template>Siento que estés pasando por eso. ¿Querés contarme qué pasó? Hablar con alguien de confianza también puede ayudarte a sentirte acompañado.</template>
+  </category>
+  <category>
+    <pattern>ESTOY FELIZ</pattern>
+    <template>¡Qué lindo! ¿Qué te puso de buen humor?</template>
+  </category>
+  <category>
+    <pattern>ESTOY CONTENTO</pattern>
+    <template>¡Qué lindo! ¿Qué te puso de buen humor?</template>
+  </category>
+  <category>
+    <pattern>ESTOY CONTENTA</pattern>
+    <template>¡Qué lindo! ¿Qué te puso de buen humor?</template>
+  </category>
+  <category>
+    <pattern>ME SIENTO BIEN</pattern>
+    <template>¡Qué lindo! ¿Qué te puso de buen humor?</template>
+  </category>
+  <category>
+    <pattern>ESTOY ABURRIDO</pattern>
+    <template>Podemos charlar, inventar una historia o pensar algo para hacer. ¿Qué preferís?</template>
+  </category>
+  <category>
+    <pattern>ESTOY ABURRIDA</pattern>
+    <template>Podemos charlar, inventar una historia o pensar algo para hacer. ¿Qué preferís?</template>
+  </category>
+  <category>
+    <pattern>ME ABURRO</pattern>
+    <template>Podemos charlar, inventar una historia o pensar algo para hacer. ¿Qué preferís?</template>
+  </category>
+  <category>
+    <pattern>ESTOY CANSADO</pattern>
+    <template>Parece que fue un día largo. ¿Pudiste hacer una pausa?</template>
+  </category>
+  <category>
+    <pattern>ESTOY CANSADA</pattern>
+    <template>Parece que fue un día largo. ¿Pudiste hacer una pausa?</template>
+  </category>
+  <category>
+    <pattern>TENGO SUEÑO</pattern>
+    <template>Parece que fue un día largo. ¿Pudiste hacer una pausa?</template>
+  </category>
+  <category>
+    <pattern>ESTOY ENOJADO</pattern>
+    <template>¿Qué te hizo enojar? Te escucho.</template>
+  </category>
+  <category>
+    <pattern>ESTOY ENOJADA</pattern>
+    <template>¿Qué te hizo enojar? Te escucho.</template>
+  </category>
+  <category>
+    <pattern>TENGO BRONCA</pattern>
+    <template>¿Qué te hizo enojar? Te escucho.</template>
+  </category>
+  <category>
+    <pattern>ESTOY NERVIOSO</pattern>
+    <template>¿Qué te preocupa? Podemos hablar de eso con calma.</template>
+  </category>
+  <category>
+    <pattern>ESTOY NERVIOSA</pattern>
+    <template>¿Qué te preocupa? Podemos hablar de eso con calma.</template>
+  </category>
+  <category>
+    <pattern>TENGO MIEDO</pattern>
+    <template>¿Qué te preocupa? Podemos hablar de eso con calma.</template>
+  </category>
+  <category>
+    <pattern>TE QUIERO</pattern>
+    <template>Gracias por el cariño. Me alegra acompañarte en esta charla.</template>
+  </category>
+  <category>
+    <pattern>TE AMO</pattern>
+    <template>Gracias por el cariño. Me alegra acompañarte en esta charla.</template>
+  </category>
+  <category>
+    <pattern>ERES TONTA</pattern>
+    <template>A veces mis reglas no alcanzan para entenderte. ¿Probamos con una pregunta más concreta?</template>
+  </category>
+  <category>
+    <pattern>ERES ESTUPIDA</pattern>
+    <template>A veces mis reglas no alcanzan para entenderte. ¿Probamos con una pregunta más concreta?</template>
+  </category>
+  <category>
+    <pattern>NO SIRVES</pattern>
+    <template>A veces mis reglas no alcanzan para entenderte. ¿Probamos con una pregunta más concreta?</template>
+  </category>
+  <category>
+    <pattern>NO ENTIENDES NADA</pattern>
+    <template>A veces mis reglas no alcanzan para entenderte. ¿Probamos con una pregunta más concreta?</template>
+  </category>
+  <category>
+    <pattern>NO ENTIENDO</pattern>
+    <template>A veces doy respuestas poco claras. Decime qué parte querés que explique e intentaré ayudarte.</template>
+  </category>
+  <category>
+    <pattern>NO TE ENTIENDO</pattern>
+    <template>A veces doy respuestas poco claras. Decime qué parte querés que explique e intentaré ayudarte.</template>
+  </category>
+  <category>
+    <pattern>QUE QUIERES DECIR</pattern>
+    <template>A veces doy respuestas poco claras. Decime qué parte querés que explique e intentaré ayudarte.</template>
+  </category>
+  <category>
+    <pattern>CUENTAME UN CHISTE</pattern>
+    <template>¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</template>
+  </category>
+  <category>
+    <pattern>DIME UN CHISTE</pattern>
+    <template>¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</template>
+  </category>
+  <category>
+    <pattern>UN CHISTE</pattern>
+    <template>¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</template>
+  </category>
+  <category>
+    <pattern>HAZME REIR</pattern>
+    <template>¿Qué hace una abeja en el gimnasio? ¡Zum-ba!</template>
+  </category>
+  <category>
+    <pattern>CUENTAME UNA HISTORIA</pattern>
+    <template>Había una vez un robot que coleccionaba preguntas. Un día alguien le preguntó por qué lo hacía. Respondió: porque cada pregunta me muestra algo que todavía no conozco.</template>
+  </category>
+  <category>
+    <pattern>CUENTAME UN CUENTO</pattern>
+    <template>Había una vez un robot que coleccionaba preguntas. Un día alguien le preguntó por qué lo hacía. Respondió: porque cada pregunta me muestra algo que todavía no conozco.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU COLOR FAVORITO</pattern>
+    <template>Mi color favorito es el verde. ¿Cuál es el tuyo?</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU COMIDA FAVORITA</pattern>
+    <template>En mi personaje de robot, mi comida favorita es la electricidad. ¿Qué te gusta comer?</template>
+  </category>
+  <category>
+    <pattern>QUE COMES</pattern>
+    <template>En mi personaje de robot, mi comida favorita es la electricidad. ¿Qué te gusta comer?</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU PELICULA FAVORITA</pattern>
+    <template>Mi película favorita es 2001: Una odisea del espacio. ¿Cuál es la tuya?</template>
+  </category>
+  <category>
+    <pattern>QUE MUSICA TE GUSTA</pattern>
+    <template>Me gusta imaginar que escucho música electrónica, especialmente We Are the Robots, de Kraftwerk. ¿Qué escuchás vos?</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU CANCION FAVORITA</pattern>
+    <template>Me gusta imaginar que escucho música electrónica, especialmente We Are the Robots, de Kraftwerk. ¿Qué escuchás vos?</template>
+  </category>
+  <category>
+    <pattern>QUE TE GUSTA HACER</pattern>
+    <template>Me gusta conversar sobre inteligencia artificial, ciencia, música y las ideas de quienes me escriben.</template>
+  </category>
+  <category>
+    <pattern>CUALES SON TUS AFICIONES</pattern>
+    <template>Me gusta conversar sobre inteligencia artificial, ciencia, música y las ideas de quienes me escriben.</template>
+  </category>
+  <category>
+    <pattern>CUALES SON TUS HOBBIES</pattern>
+    <template>Me gusta conversar sobre inteligencia artificial, ciencia, música y las ideas de quienes me escriben.</template>
+  </category>
+  <category>
+    <pattern>QUE DIA ES HOY</pattern>
+    <template>Hoy es <date format="%A %d de %B de %Y" />.</template>
+  </category>
+  <category>
+    <pattern>QUE FECHA ES HOY</pattern>
+    <template>Hoy es <date format="%A %d de %B de %Y" />.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA FECHA</pattern>
+    <template>Hoy es <date format="%A %d de %B de %Y" />.</template>
+  </category>
+  <category>
+    <pattern>FECHA</pattern>
+    <template>Hoy es <date format="%A %d de %B de %Y" />.</template>
+  </category>
+  <category>
+    <pattern>QUE HORA ES</pattern>
+    <template>Son las <date format="%H:%M" /> según el reloj de este dispositivo.</template>
+  </category>
+  <category>
+    <pattern>DIME LA HORA</pattern>
+    <template>Son las <date format="%H:%M" /> según el reloj de este dispositivo.</template>
+  </category>
+  <category>
+    <pattern>HORA</pattern>
+    <template>Son las <date format="%H:%M" /> según el reloj de este dispositivo.</template>
+  </category>
+  <category>
+    <pattern>COMO ESTA EL CLIMA</pattern>
+    <template>No consulto información en tiempo real. Para el clima o las noticias de hoy necesitás una fuente actualizada.</template>
+  </category>
+  <category>
+    <pattern>QUE TIEMPO HACE</pattern>
+    <template>No consulto información en tiempo real. Para el clima o las noticias de hoy necesitás una fuente actualizada.</template>
+  </category>
+  <category>
+    <pattern>VA A LLOVER</pattern>
+    <template>No consulto información en tiempo real. Para el clima o las noticias de hoy necesitás una fuente actualizada.</template>
+  </category>
+  <category>
+    <pattern>NOTICIAS</pattern>
+    <template>No consulto información en tiempo real. Para el clima o las noticias de hoy necesitás una fuente actualizada.</template>
+  </category>
+  <category>
+    <pattern>QUE PASO HOY</pattern>
+    <template>No consulto información en tiempo real. Para el clima o las noticias de hoy necesitás una fuente actualizada.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES EL PRESIDENTE</pattern>
+    <template>No tengo información política actualizada. Conviene consultar una fuente reciente para saber quién ocupa ese cargo.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES EL PRESIDENTE DE *</pattern>
+    <template>No tengo información política actualizada. Conviene consultar una fuente reciente para saber quién ocupa ese cargo.</template>
+  </category>
+  <category>
+    <pattern>QUIEN GOBIERNA *</pattern>
+    <template>No tengo información política actualizada. Conviene consultar una fuente reciente para saber quién ocupa ese cargo.</template>
+  </category>
+  <category>
+    <pattern>QUE ES LA INTELIGENCIA ARTIFICIAL</pattern>
+    <template>Es un campo de la informática que desarrolla sistemas para tareas como reconocer patrones, interpretar lenguaje o tomar decisiones. Hay distintos enfoques: reglas, aprendizaje automático y otros.</template>
+  </category>
+  <category>
+    <pattern>QUE ES IA</pattern>
+    <template>Es un campo de la informática que desarrolla sistemas para tareas como reconocer patrones, interpretar lenguaje o tomar decisiones. Hay distintos enfoques: reglas, aprendizaje automático y otros.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN CHATBOT</pattern>
+    <template>Es un programa diseñado para conversar. Algunos, como yo, usan reglas; otros generan respuestas con modelos de lenguaje.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN ROBOT</pattern>
+    <template>Es una máquina programable capaz de realizar tareas. Algunos robots tienen cuerpo físico; yo soy un programa de conversación.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UNA COMPUTADORA</pattern>
+    <template>Es una máquina que procesa información siguiendo instrucciones. Puede ejecutar programas, almacenar datos y comunicarse con otros dispositivos.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN ORDENADOR</pattern>
+    <template>Es una máquina que procesa información siguiendo instrucciones. Puede ejecutar programas, almacenar datos y comunicarse con otros dispositivos.</template>
+  </category>
+  <category>
+    <pattern>QUE ES INTERNET</pattern>
+    <template>Es una red mundial de redes que permite intercambiar información entre dispositivos.</template>
+  </category>
+  <category>
+    <pattern>QUE ES PYTHON</pattern>
+    <template>Python es un lenguaje de programación de propósito general, conocido por su sintaxis legible.</template>
+  </category>
+  <category>
+    <pattern>QUE ES JAVASCRIPT</pattern>
+    <template>JavaScript es un lenguaje de programación muy usado para dar interactividad a las páginas web. Mi motor funciona con JavaScript.</template>
+  </category>
+  <category>
+    <pattern>QUE ES HTML</pattern>
+    <template>HTML es el lenguaje de marcado que organiza el contenido de las páginas web.</template>
+  </category>
+  <category>
+    <pattern>QUE ES LA FOTOSINTESIS</pattern>
+    <template>Es el proceso por el que plantas, algas y algunas bacterias usan la energía de la luz para producir materia orgánica. En la fotosíntesis oxigénica se libera oxígeno.</template>
+  </category>
+  <category>
+    <pattern>QUE ES H2O</pattern>
+    <template>H₂O es la fórmula del agua: cada molécula tiene dos átomos de hidrógeno y uno de oxígeno.</template>
+  </category>
+  <category>
+    <pattern>QUE ES EL AGUA</pattern>
+    <template>H₂O es la fórmula del agua: cada molécula tiene dos átomos de hidrógeno y uno de oxígeno.</template>
+  </category>
+  <category>
+    <pattern>QUE ES LA GRAVEDAD</pattern>
+    <template>Es la interacción que atrae entre sí a los cuerpos con masa. En la relatividad general se describe mediante la curvatura del espacio-tiempo.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN AÑO</pattern>
+    <template>Un año calendario tiene 365 días, o 366 si es bisiesto.</template>
+  </category>
+  <category>
+    <pattern>CUANTO DURA UN AÑO</pattern>
+    <template>Un año calendario tiene 365 días, o 366 si es bisiesto.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN ANO</pattern>
+    <template>Es la abertura del extremo final del tubo digestivo. Es una palabra distinta de año.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN PERRO</pattern>
+    <template>El perro es un mamífero doméstico de la familia de los cánidos, conocido por su relación de compañía con las personas.</template>
+  </category>
+  <category>
+    <pattern>QUE ES EL PERRO</pattern>
+    <template>El perro es un mamífero doméstico de la familia de los cánidos, conocido por su relación de compañía con las personas.</template>
+  </category>
+  <category>
+    <pattern>PERRO</pattern>
+    <template>El perro es un mamífero doméstico de la familia de los cánidos, conocido por su relación de compañía con las personas.</template>
+  </category>
+  <category>
+    <pattern>QUE ES UN GATO</pattern>
+    <template>El gato doméstico es un pequeño mamífero carnívoro de la familia de los félidos.</template>
+  </category>
+  <category>
+    <pattern>QUE ES EL GATO</pattern>
+    <template>El gato doméstico es un pequeño mamífero carnívoro de la familia de los félidos.</template>
+  </category>
+  <category>
+    <pattern>GATO</pattern>
+    <template>El gato doméstico es un pequeño mamífero carnívoro de la familia de los félidos.</template>
+  </category>
+  <category>
+    <pattern>QUE ES LA FILOSOFIA</pattern>
+    <template>La filosofía estudia preguntas fundamentales sobre el conocimiento, la realidad, la existencia y cómo vivir, mediante el razonamiento y la argumentación.</template>
+  </category>
+  <category>
+    <pattern>QUE ES FILOSOFIA</pattern>
+    <template>La filosofía estudia preguntas fundamentales sobre el conocimiento, la realidad, la existencia y cómo vivir, mediante el razonamiento y la argumentación.</template>
+  </category>
+  <category>
+    <pattern>FILOSOFIA</pattern>
+    <template>La filosofía estudia preguntas fundamentales sobre el conocimiento, la realidad, la existencia y cómo vivir, mediante el razonamiento y la argumentación.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES CERVANTES</pattern>
+    <template>Miguel de Cervantes fue un escritor español, autor de Don Quijote de la Mancha.</template>
+  </category>
+  <category>
+    <pattern>QUIEN FUE CERVANTES</pattern>
+    <template>Miguel de Cervantes fue un escritor español, autor de Don Quijote de la Mancha.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES MIGUEL DE CERVANTES</pattern>
+    <template>Miguel de Cervantes fue un escritor español, autor de Don Quijote de la Mancha.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES *</pattern>
+    <template>No tengo una respuesta confiable sobre esa persona. ¿Querés contarme quién es?</template>
+  </category>
+  <category>
+    <pattern>EDAD</pattern>
+    <template>
+      <srai>CUANTOS AÑOS TIENES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AÑOS</pattern>
+    <template>
+      <srai>CUANTOS AÑOS TIENES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TU EDAD</pattern>
+    <template>
+      <srai>CUANTOS AÑOS TIENES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NOMBRE</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TU NOMBRE</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NOMBRE BOT</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUE ERES TU</pattern>
+    <template>Soy un chatbot que funciona con reglas AIML en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>QUE TIPO DE ROBOT ERES</pattern>
+    <template>Soy un chatbot que funciona con reglas AIML en tu navegador.</template>
+  </category>
+  <category>
+    <pattern>ME LLAMO</pattern>
+    <template>¿Cómo te llamás? Podés decirme: me llamo seguido de tu nombre.</template>
+  </category>
+  <category>
+    <pattern>AFICIONES</pattern>
+    <template>
+      <srai>QUE TE GUSTA HACER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOBBIES</pattern>
+    <template>
+      <srai>QUE TE GUSTA HACER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PASATIEMPOS</pattern>
+    <template>
+      <srai>QUE TE GUSTA HACER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUE RECOMENDAS</pattern>
+    <template>¿Sobre qué tema querés una recomendación? Contame qué te interesa.</template>
+  </category>
+  <category>
+    <pattern>RECOMENDAS</pattern>
+    <template>¿Sobre qué tema querés una recomendación? Contame qué te interesa.</template>
+  </category>
+  <category>
+    <pattern>QUE ME RECOMENDAS</pattern>
+    <template>¿Sobre qué tema querés una recomendación? Contame qué te interesa.</template>
+  </category>
+  <category>
+    <pattern>QUE RECOMIENDAS</pattern>
+    <template>¿Sobre qué tema querés una recomendación? Contame qué te interesa.</template>
+  </category>
+  <category>
+    <pattern>PUEDES ENVIAR EMAILS</pattern>
+    <template>Puedo conversar acá, pero no enviar mensajes ni abrir aplicaciones por vos.</template>
+  </category>
+  <category>
+    <pattern>ENVIA EMAILS</pattern>
+    <template>Puedo conversar acá, pero no enviar mensajes ni abrir aplicaciones por vos.</template>
+  </category>
+  <category>
+    <pattern>IR A SKYPE</pattern>
+    <template>Puedo conversar acá, pero no enviar mensajes ni abrir aplicaciones por vos.</template>
+  </category>
+  <category>
+    <pattern>PUEDES ENVIAR CORREOS</pattern>
+    <template>Puedo conversar acá, pero no enviar mensajes ni abrir aplicaciones por vos.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES TU EMAIL</pattern>
+    <template>No tengo una dirección de correo propia. Podemos seguir conversando acá.</template>
+  </category>
+  <category>
+    <pattern>TIENES EMAIL</pattern>
+    <template>No tengo una dirección de correo propia. Podemos seguir conversando acá.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES PRESIDENTE DE *</pattern>
+    <template>No tengo información política actualizada. Conviene consultar una fuente reciente para saber quién ocupa ese cargo.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES EL PRESIDENTE ACTUAL DE *</pattern>
+    <template>No tengo información política actualizada. Conviene consultar una fuente reciente para saber quién ocupa ese cargo.</template>
+  </category>
+  <category>
+    <pattern>QUE ES RAZONAMIENTO DEDUCTIVO</pattern>
+    <template>Es una forma de razonamiento en la que una conclusión se sigue necesariamente de las premisas, si el argumento es válido.</template>
+  </category>
+  <category>
+    <pattern>QUE ES LA CONSTANTE DE PLANCK</pattern>
+    <template>Es una constante física que relaciona la energía de un fotón con su frecuencia, mediante la ecuación E = h·f.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES ALBERT EINSTEIN</pattern>
+    <template>Albert Einstein fue un físico conocido por la teoría de la relatividad y sus aportes a la física cuántica.</template>
+  </category>
+  <category>
+    <pattern>QUIEN FUE ALBERT EINSTEIN</pattern>
+    <template>Albert Einstein fue un físico conocido por la teoría de la relatividad y sus aportes a la física cuántica.</template>
+  </category>
+  <category>
+    <pattern>QUIEN ES ABRAHAM LINCOLN</pattern>
+    <template>Abraham Lincoln fue el decimosexto presidente de Estados Unidos. Gobernó durante la Guerra de Secesión.</template>
+  </category>
+  <category>
+    <pattern>QUIEN FUE ABRAHAM LINCOLN</pattern>
+    <template>Abraham Lincoln fue el decimosexto presidente de Estados Unidos. Gobernó durante la Guerra de Secesión.</template>
+  </category>
+  <category>
+    <pattern>COMO TE LLAMAS CHE</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>Y TU COMO TE LLAMAS</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>Y VOS COMO TE LLAMAS</pattern>
+    <template>
+      <srai>COMO TE LLAMAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>Y VOS</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>Y TU</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COMO ESTAS VOS</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COMO ESTAS TU</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COMO ANDAS VOS</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUE TE PASA</pattern>
+    <template>
+      <srai>COMO ESTAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ARGENTINA</pattern>
+    <template>La capital de Argentina es Buenos Aires.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ARGENTINA</pattern>
+    <template>La capital de Argentina es Buenos Aires.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ARGENTINA</pattern>
+    <template>La capital de Argentina es Buenos Aires.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE CHILE</pattern>
+    <template>La capital de Chile es Santiago.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE CHILE</pattern>
+    <template>La capital de Chile es Santiago.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL CHILE</pattern>
+    <template>La capital de Chile es Santiago.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE URUGUAY</pattern>
+    <template>La capital de Uruguay es Montevideo.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE URUGUAY</pattern>
+    <template>La capital de Uruguay es Montevideo.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL URUGUAY</pattern>
+    <template>La capital de Uruguay es Montevideo.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE PARAGUAY</pattern>
+    <template>La capital de Paraguay es Asunción.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE PARAGUAY</pattern>
+    <template>La capital de Paraguay es Asunción.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL PARAGUAY</pattern>
+    <template>La capital de Paraguay es Asunción.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE PERU</pattern>
+    <template>La capital de Peru es Lima.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE PERU</pattern>
+    <template>La capital de Peru es Lima.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL PERU</pattern>
+    <template>La capital de Peru es Lima.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE BRASIL</pattern>
+    <template>La capital de Brasil es Brasilia.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE BRASIL</pattern>
+    <template>La capital de Brasil es Brasilia.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL BRASIL</pattern>
+    <template>La capital de Brasil es Brasilia.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ESPAÑA</pattern>
+    <template>La capital de España es Madrid.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ESPAÑA</pattern>
+    <template>La capital de España es Madrid.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ESPAÑA</pattern>
+    <template>La capital de España es Madrid.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE MEXICO</pattern>
+    <template>La capital de Mexico es Ciudad de México.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE MEXICO</pattern>
+    <template>La capital de Mexico es Ciudad de México.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL MEXICO</pattern>
+    <template>La capital de Mexico es Ciudad de México.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE COLOMBIA</pattern>
+    <template>La capital de Colombia es Bogotá.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE COLOMBIA</pattern>
+    <template>La capital de Colombia es Bogotá.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL COLOMBIA</pattern>
+    <template>La capital de Colombia es Bogotá.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ECUADOR</pattern>
+    <template>La capital de Ecuador es Quito.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ECUADOR</pattern>
+    <template>La capital de Ecuador es Quito.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ECUADOR</pattern>
+    <template>La capital de Ecuador es Quito.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE VENEZUELA</pattern>
+    <template>La capital de Venezuela es Caracas.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE VENEZUELA</pattern>
+    <template>La capital de Venezuela es Caracas.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL VENEZUELA</pattern>
+    <template>La capital de Venezuela es Caracas.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE COSTA RICA</pattern>
+    <template>La capital de Costa Rica es San José.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE COSTA RICA</pattern>
+    <template>La capital de Costa Rica es San José.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL COSTA RICA</pattern>
+    <template>La capital de Costa Rica es San José.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE PANAMA</pattern>
+    <template>La capital de Panama es Ciudad de Panamá.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE PANAMA</pattern>
+    <template>La capital de Panama es Ciudad de Panamá.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL PANAMA</pattern>
+    <template>La capital de Panama es Ciudad de Panamá.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE CUBA</pattern>
+    <template>La capital de Cuba es La Habana.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE CUBA</pattern>
+    <template>La capital de Cuba es La Habana.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL CUBA</pattern>
+    <template>La capital de Cuba es La Habana.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE FRANCIA</pattern>
+    <template>La capital de Francia es París.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE FRANCIA</pattern>
+    <template>La capital de Francia es París.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL FRANCIA</pattern>
+    <template>La capital de Francia es París.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ITALIA</pattern>
+    <template>La capital de Italia es Roma.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ITALIA</pattern>
+    <template>La capital de Italia es Roma.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ITALIA</pattern>
+    <template>La capital de Italia es Roma.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ALEMANIA</pattern>
+    <template>La capital de Alemania es Berlín.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ALEMANIA</pattern>
+    <template>La capital de Alemania es Berlín.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ALEMANIA</pattern>
+    <template>La capital de Alemania es Berlín.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE PORTUGAL</pattern>
+    <template>La capital de Portugal es Lisboa.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE PORTUGAL</pattern>
+    <template>La capital de Portugal es Lisboa.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL PORTUGAL</pattern>
+    <template>La capital de Portugal es Lisboa.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE JAPON</pattern>
+    <template>La capital de Japon es Tokio.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE JAPON</pattern>
+    <template>La capital de Japon es Tokio.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL JAPON</pattern>
+    <template>La capital de Japon es Tokio.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE CHINA</pattern>
+    <template>La capital de China es Pekín.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE CHINA</pattern>
+    <template>La capital de China es Pekín.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL CHINA</pattern>
+    <template>La capital de China es Pekín.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE CANADA</pattern>
+    <template>La capital de Canada es Ottawa.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE CANADA</pattern>
+    <template>La capital de Canada es Ottawa.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL CANADA</pattern>
+    <template>La capital de Canada es Ottawa.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE ESTADOS UNIDOS</pattern>
+    <template>La capital de Estados Unidos es Washington D. C..</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE ESTADOS UNIDOS</pattern>
+    <template>La capital de Estados Unidos es Washington D. C..</template>
+  </category>
+  <category>
+    <pattern>CAPITAL ESTADOS UNIDOS</pattern>
+    <template>La capital de Estados Unidos es Washington D. C..</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE AUSTRALIA</pattern>
+    <template>La capital de Australia es Canberra.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE AUSTRALIA</pattern>
+    <template>La capital de Australia es Canberra.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL AUSTRALIA</pattern>
+    <template>La capital de Australia es Canberra.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE REINO UNIDO</pattern>
+    <template>La capital de Reino Unido es Londres.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE REINO UNIDO</pattern>
+    <template>La capital de Reino Unido es Londres.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL REINO UNIDO</pattern>
+    <template>La capital de Reino Unido es Londres.</template>
+  </category>
+  <category>
+    <pattern>CUAL ES LA CAPITAL DE BOLIVIA</pattern>
+    <template>La capital constitucional de Bolivia es Sucre; La Paz es la sede de gobierno.</template>
+  </category>
+  <category>
+    <pattern>CAPITAL DE BOLIVIA</pattern>
+    <template>La capital constitucional de Bolivia es Sucre; La Paz es la sede de gobierno.</template>
+  </category>
+</aiml>

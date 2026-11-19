@@ -25,6 +25,7 @@ class Bot {
     this.subs = {};
     for (const k of ["normal", "person", "person2", "gender"]) this.subs[k] = compileSubs(subs[k]);
     this.templates = [];
+    this.activeMatches = new Set();
     this.root = { c: new Map(), t: -1 };
     for (const [p, t, tp, tpl] of brain.c) this.add(p, t, tp, tpl);
     this.size = this.templates.length;
@@ -66,12 +67,13 @@ class Bot {
 
   // --- normalization ---
   fold(s) {
-    s = s.toUpperCase();
-    if (this.cfg.stripAccents) s = s.normalize("NFD").replace(/\p{Mn}/gu, "");
+    s = s.normalize("NFC").toUpperCase();
+    if (this.cfg.stripAccents) s = s.split("Ñ").map((p) => p.normalize("NFD").replace(/\p{Mn}/gu, "")).join("Ñ");
     return s;
   }
 
   sentences(text) {
+    text = text.normalize("NFC");
     if (this.subs.normal) text = this.subs.normal(" " + text + " ");
     return text.split(/[.!?;。！？]+/u).map((s) => s.replace(/[^\p{L}\p{N}]+/gu, " ").trim()).filter(Boolean);
   }
@@ -132,7 +134,14 @@ class Bot {
       thatstar: m.stars.that.map(([a, b]) => tokens.slice(a, b).join(" ")),
       topicstar: m.stars.topic.map(([a, b]) => tokens.slice(a, b).join(" ")),
     };
-    return this.eval(this.templates[m.t], ctx);
+    // Imported corpora may contain indirect redirects, including random ones.
+    // Allow recursive rules that change predicates, but stop an unchanged cycle.
+    if (!this.cfg.guardCycles) return this.eval(this.templates[m.t], ctx);
+    const key = JSON.stringify([m.t, tokens, this.preds]);
+    if (this.activeMatches.has(key)) return "";
+    this.activeMatches.add(key);
+    try { return this.eval(this.templates[m.t], ctx); }
+    finally { this.activeMatches.delete(key); }
   }
 
   sentencesWords(s) {
@@ -147,12 +156,12 @@ class Bot {
   respond(text, hidden = false) {
     const out = [];
     for (const s of this.sentences(text)) {
-      const r = clean(this.respondSentence(s.split(" "), 0));
+      const r = clean(this.respondSentence(s.split(" "), 0)) || (hidden ? "" : this.cfg.fallback || "");
       if (!hidden) this.inputs.unshift(s);
       this.thats.unshift(this.splitResponse(r));
       out.push(r);
     }
-    const resp = clean(out.join(" "));
+    const resp = clean(out.join(" ")) || (hidden ? "" : this.cfg.fallback || "");
     if (!hidden) { this.requests.unshift(text); this.responses.unshift(resp); }
     return resp;
   }

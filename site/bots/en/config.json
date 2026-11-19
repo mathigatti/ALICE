@@ -11,7 +11,9 @@
   "reset": "Reset",
   "thinking": "…",
   "about": "ALICE (Artificial Linguistic Internet Computer Entity) by Richard S. Wallace, 1995. Running the free ALICE AIML set with a small in-browser AIML interpreter.",
-  "greeting": "Hi! My name is ALICE, what's yours?"
+  "greeting": "Hi! My name is ALICE, what's yours?",
+  "description": "Chat in English with A.L.I.C.E., Richard Wallace's classic AIML chatbot. Explore its original 98,000-category brain, running entirely in your browser.",
+  "title": "A.L.I.C.E. · Chat with the classic chatbot in English"
  },
  "bot": {
   "name": "ALICE",

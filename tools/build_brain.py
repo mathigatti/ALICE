@@ -17,9 +17,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def norm_pattern(s, strip_accents):
-    s = re.sub(r"\s+", " ", s).strip().upper()
+    s = re.sub(r"\s+", " ", unicodedata.normalize("NFC", s)).strip().upper()
     if strip_accents:
-        s = "".join(ch for ch in unicodedata.normalize("NFD", s) if unicodedata.category(ch) != "Mn")
+        # Ñ is a letter, not an optional Spanish accent (año != ano).
+        s = "Ñ".join("".join(ch for ch in unicodedata.normalize("NFD", part)
+                            if unicodedata.category(ch) != "Mn") for part in s.split("Ñ"))
     return s or "*"
 
 
@@ -57,7 +59,8 @@ def ast(el):
 
 
 def main(lang):
-    cfg = json.load(open(os.path.join(ROOT, "site/bots", lang, "config.json")))
+    with open(os.path.join(ROOT, "site/bots", lang, "config.json"), encoding="utf-8") as fh:
+        cfg = json.load(fh)
     strip = cfg.get("stripAccents", False)
     bot = cfg.get("bot", {})
     cats = {}
@@ -80,7 +83,7 @@ def main(lang):
                     add(cat, topic)
     out = {"c": [[p, t, tp, tpl] for (p, t, tp), tpl in cats.items()]}
     dest = os.path.join(ROOT, "site/bots", lang, "brain.json")
-    with open(dest, "w") as fh:
+    with open(dest, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
     print(f"{lang}: {len(files)} files, {len(cats)} categories -> {dest} ({os.path.getsize(dest) // 1024} KB)")
 

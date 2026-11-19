@@ -1,36 +1,39 @@
 <!doctype html>
-<html lang="en">
+<html lang="es" data-bot-language="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A.L.I.C.E. · Chat with the original 1995 chatbot</title>
-<meta name="description" content="Talk to A.L.I.C.E., Richard Wallace's classic AIML chatbot and three-time Loebner Prize winner, running entirely in your browser with its original 98,000-category brain.">
+<title>A.L.I.C.E. · Conversá con el chatbot clásico en español</title>
+<meta name="description" content="Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.">
 <meta name="author" content="Laboratorio Sensacional">
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="ALICE, A.L.I.C.E., chatbot, AIML, Richard Wallace, Loebner Prize, ELIZA, retro AI, Turing test">
+<meta name="keywords" content="ALICE, A.L.I.C.E., chatbot, AIML, Richard Wallace, Premio Loebner, ELIZA, inteligencia artificial, chatbot en español, test de Turing">
 <link rel="canonical" href="https://alice.labsensacional.com/">
+<link rel="alternate" hreflang="es" href="https://alice.labsensacional.com/">
+<link rel="alternate" hreflang="en" href="https://alice.labsensacional.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://alice.labsensacional.com/">
 <meta name="theme-color" content="#f6f4fb" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1d1b26" media="(prefers-color-scheme: dark)">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Laboratorio Sensacional">
-<meta property="og:locale" content="en_US">
-<meta property="og:locale:alternate" content="es_AR">
+<meta property="og:locale" content="es_AR">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:url" content="https://alice.labsensacional.com/">
-<meta property="og:title" content="A.L.I.C.E. · Chat with the original 1995 chatbot">
-<meta property="og:description" content="Richard Wallace's classic AIML chatbot, three-time Loebner Prize winner, running in your browser.">
+<meta property="og:title" content="A.L.I.C.E. · Conversá con el chatbot clásico en español">
+<meta property="og:description" content="Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.">
 <meta property="og:image" content="https://alice.labsensacional.com/og.png">
 <meta property="og:image:secure_url" content="https://alice.labsensacional.com/og.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="A.L.I.C.E. chat window: 'Hi! My name is ALICE, what's yours?'">
+<meta property="og:image:alt" content="Ventana de chat de A.L.I.C.E.">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="A.L.I.C.E. · Chat with the original 1995 chatbot">
-<meta name="twitter:description" content="Richard Wallace's classic AIML chatbot, three-time Loebner Prize winner, running in your browser.">
+<meta name="twitter:title" content="A.L.I.C.E. · Conversá con el chatbot clásico en español">
+<meta name="twitter:description" content="Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.">
 <meta name="twitter:image" content="https://alice.labsensacional.com/og.png">
-<meta name="twitter:image:alt" content="A.L.I.C.E. chat window">
+<meta name="twitter:image:alt" content="Ventana de chat de A.L.I.C.E.">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
@@ -43,17 +46,33 @@
   "name": "A.L.I.C.E.",
   "alternateName": "Artificial Linguistic Internet Computer Entity",
   "url": "https://alice.labsensacional.com/",
-  "description": "Chat with Richard Wallace's original A.L.I.C.E. AIML chatbot, running in the browser.",
+  "description": "Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.",
   "applicationCategory": "EntertainmentApplication",
   "operatingSystem": "Any",
-  "inLanguage": "en",
+  "inLanguage": "es",
   "image": "https://alice.labsensacional.com/og.png",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "creator": { "@type": "Organization", "name": "Laboratorio Sensacional", "url": "https://labsensacional.com/" },
-  "isBasedOn": { "@type": "SoftwareSourceCode", "name": "Free A.L.I.C.E. AIML set", "author": { "@type": "Person", "name": "Richard S. Wallace" }, "codeRepository": "https://github.com/drwallace/aiml-en-us-foundation-alice" }
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Laboratorio Sensacional",
+    "url": "https://labsensacional.com/"
+  },
+  "isBasedOn": {
+    "@type": "SoftwareSourceCode",
+    "name": "Free A.L.I.C.E. AIML set",
+    "author": {
+      "@type": "Person",
+      "name": "Richard S. Wallace"
+    },
+    "codeRepository": "https://github.com/drwallace/aiml-en-us-foundation-alice"
+  }
 }
 </script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <main class="app">
@@ -63,22 +82,22 @@
       <p class="sub">Artificial Linguistic Internet Computer Entity · 1995</p>
     </div>
     <div class="controls">
-      <select id="lang" aria-label="Language"></select>
-      <button id="reset" class="ghost" type="button">Reset</button>
+      <select id="lang" aria-label="Idioma"></select>
+      <button id="reset" class="ghost" type="button">Reiniciar</button>
     </div>
   </header>
 
   <section id="log" class="log" aria-live="polite">
-    <noscript><p class="msg note">A.L.I.C.E. runs in your browser and needs JavaScript enabled.</p></noscript>
+    <noscript><p class="msg note">A.L.I.C.E. funciona en tu navegador y necesita JavaScript activado.</p><p><a href="/">Español</a> · <a href="/en/">English</a></p></noscript>
   </section>
 
   <form id="form" class="composer" autocomplete="off">
     <input id="input" type="text" placeholder="…" disabled>
-    <button id="send" type="submit" disabled>Send</button>
+    <button id="send" type="submit" disabled>Enviar</button>
   </form>
 
-  <footer id="about">A.L.I.C.E. (Artificial Linguistic Internet Computer Entity) was created by Richard S. Wallace in 1995 and won the Loebner Prize in 2000, 2001 and 2004. This page runs the free ALICE AIML set with a small in-browser AIML interpreter.</footer>
+  <footer id="about">ALICE fue creada por Richard S. Wallace en 1995. Esta adaptación española reúne reglas de Sara, Sarabot, Naochat, InMoov y Rosie, y funciona en tu navegador.</footer>
 </main>
-<script src="app.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
