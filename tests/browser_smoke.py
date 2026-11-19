@@ -44,7 +44,7 @@ def wait(script):
 
 
 def ready(lang):
-    wait(f"return document.documentElement.lang === '{lang}' && !document.getElementById('input').disabled")
+    wait(f"return document.documentElement.lang === '{lang}' && document.getElementById('input')?.disabled === false")
 
 
 def switch(lang):
