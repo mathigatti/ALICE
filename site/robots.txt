@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alice.labsensacional.com/sitemap.xml

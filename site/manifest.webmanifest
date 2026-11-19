@@ -1,0 +1,14 @@
+{
+  "name": "A.L.I.C.E.",
+  "short_name": "ALICE",
+  "description": "Chat with the original 1995 A.L.I.C.E. chatbot.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f4fb",
+  "theme_color": "#b9addb",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
