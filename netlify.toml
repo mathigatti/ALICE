@@ -1,0 +1,7 @@
+[build]
+  publish = "site"
+
+[[headers]]
+  for = "/bots/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

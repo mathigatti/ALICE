@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A.L.I.C.E.</title>
+<meta name="description" content="Chat with the original A.L.I.C.E. chatbot (AIML), running in your browser.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23b9addb'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <div class="brand">
+      <h1>A.L.I.C.E.</h1>
+      <p class="sub">Artificial Linguistic Internet Computer Entity · 1995</p>
+    </div>
+    <div class="controls">
+      <select id="lang" aria-label="Language"></select>
+      <button id="reset" class="ghost" type="button">Reset</button>
+    </div>
+  </header>
+
+  <section id="log" class="log" aria-live="polite"></section>
+
+  <form id="form" class="composer" autocomplete="off">
+    <input id="input" type="text" placeholder="…" disabled>
+    <button id="send" type="submit" disabled>Send</button>
+  </form>
+
+  <footer id="about"></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
