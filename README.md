@@ -15,6 +15,19 @@ site/bots/<lang>/config.json   bot properties, substitutions, UI strings
 
 Local: `cd site && python3 -m http.server` → http://localhost:8000
 
+## Deployment
+
+Netlify project `alice-aiml-chat` is connected to `mathigatti/ALICE`, branch `main`,
+and publishes the committed `site/` directory without a build command. Pushes to
+`main` trigger deployment through a GitHub push webhook; Netlify reads the private
+repository with a read-only deploy key. Credentials are managed by GitHub/Netlify,
+not stored in this repository.
+
+Production: [Español](https://alice.labsensacional.com/) ·
+[English](https://alice.labsensacional.com/en/).
+Regenerate compiled brains and the Spanish source archive before pushing changes
+to AIML sources; Netlify serves those committed artifacts as-is.
+
 ## Spanish
 
 The language selector includes Spanish: a merged community corpus (Sara,
