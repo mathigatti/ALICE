@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ffffff">
-<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#e7f0ee">
+<meta name="color-scheme" content="light dark">
+<script src="/theme.js"></script>
 <title>A.L.I.C.E. · Conversá con el chatbot clásico en español</title>
 <meta name="description" content="Conversá en español con A.L.I.C.E., el chatbot clásico de Richard Wallace. Una adaptación con más de 6.000 reglas, sin instalar nada y en tu navegador.">
 <meta name="author" content="Laboratorio Sensacional">
@@ -83,6 +84,11 @@
     </div>
     <div class="controls">
       <select aria-describedby="language-note" id="lang" aria-label="Idioma"></select>
+      <select id="theme" aria-label="Tema">
+        <option value="system">Sistema</option>
+        <option value="light">Claro</option>
+        <option value="dark">Oscuro</option>
+      </select>
       <button id="reset" class="ghost" type="button">Reiniciar</button>
     </div>
     <p id="language-note" class="language-note">La versión en inglés es más completa.</p>

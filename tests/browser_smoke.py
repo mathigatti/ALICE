@@ -66,6 +66,19 @@ try:
     js("localStorage.clear(); localStorage.setItem('alice:lang',JSON.stringify('es'));")
     request('POST', prefix + '/refresh', {})
     ready('es')
+    js("const el=document.getElementById('theme'); el.value='dark'; el.dispatchEvent(new Event('change'));")
+    assert js("return document.documentElement.dataset.theme") == 'dark'
+    assert js("return getComputedStyle(document.body).backgroundColor") == 'rgb(32, 36, 41)'
+    assert js("return getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#b6d9f2'
+    request('POST', prefix + '/refresh', {})
+    ready('es')
+    assert js("return document.getElementById('theme').value") == 'dark'
+    switch('en')
+    assert js("return document.documentElement.dataset.theme") == 'dark'
+    assert js("return document.getElementById('theme').getAttribute('aria-label')") == 'Theme'
+    switch('es')
+    js("const el=document.getElementById('theme'); el.value='light'; el.dispatchEvent(new Event('change'));")
+    assert js("return getComputedStyle(document.body).backgroundColor") == 'rgb(231, 240, 238)'
     assert js("return document.getElementById('send').textContent") == 'Enviar'
     assert not js("return document.getElementById('lang').hidden")
     assert js("return document.getElementById('lang').getAttribute('aria-label')") == 'Idioma'
@@ -106,9 +119,15 @@ try:
     shot = request('GET', prefix + '/screenshot')
     with open('/tmp/alice-es-browser.png', 'wb') as file:
         file.write(base64.b64decode(shot))
+    js("const el=document.getElementById('theme'); el.value='dark'; el.dispatchEvent(new Event('change'));")
+    shot = request('GET', prefix + '/screenshot')
+    with open('/tmp/alice-es-dark.png', 'wb') as file:
+        file.write(base64.b64decode(shot))
+    js("const el=document.getElementById('theme'); el.value='system'; el.dispatchEvent(new Event('change'));")
+    assert js("return document.documentElement.dataset.theme === (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')")
     for path in ('bots/es/sources.html', 'bots/es/sources.md', 'bots/es/sources.zip'):
         with urllib.request.urlopen(args.base_url + path, timeout=10) as response:
             assert response.status == 200
-    print('PASS: language UI, name memory, independent histories, reload, reset, rapid switching, mobile layout, source downloads.')
+    print('PASS: themes and persistence, language UI, name memory, independent histories, reload, reset, rapid switching, mobile layout, source downloads.')
 finally:
     request('DELETE', prefix)

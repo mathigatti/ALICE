@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ffffff">
-<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#e7f0ee">
+<meta name="color-scheme" content="light dark">
+<script src="/theme.js"></script>
 <title>A.L.I.C.E. · Chat with the classic chatbot in English</title>
 <meta name="description" content="Chat in English with A.L.I.C.E., Richard Wallace's classic AIML chatbot. Explore its original 98,000-category brain, running entirely in your browser.">
 <meta name="author" content="Laboratorio Sensacional">
@@ -83,6 +84,11 @@
     </div>
     <div class="controls">
       <select aria-describedby="language-note" id="lang" aria-label="Language"></select>
+      <select id="theme" aria-label="Theme">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
       <button id="reset" class="ghost" type="button">Reset</button>
     </div>
     <p id="language-note" class="language-note">The English version is more complete.</p>
