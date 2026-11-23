@@ -96,3 +96,14 @@ test('English still responds and its memory is independent', () => {
   assert.equal(fresh().getPred('name'), cfg.defaultPredicate);
   assert.ok(en.respond('Hello').length);
 });
+
+test('English: greeting answer, wildcard rules without templates, UK spelling, punctuation', () => {
+  const b = new Bot(require('../site/bots/en/brain.json'), require('../site/bots/en/config.json'));
+  b.greet();
+  const hi = b.respond("hi, i'm mathi");
+  assert.match(hi, /Mathi/);
+  assert.doesNotMatch(hi, /[!?]\./);
+  assert.match(b.respond("what's my name?"), /Mathi/);
+  assert.match(b.respond("what's your favourite song?"), /Kraftwerk/);
+  assert.match(b.respond('what is your toaster?'), /toaster/);
+});

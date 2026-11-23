@@ -72,7 +72,9 @@ def main(lang):
             p = norm_pattern(pattern_text(cat.find("pattern"), bot), strip)
             t = norm_pattern(pattern_text(cat.find("that"), bot), strip)
             tpl = cat.find("template")
-            cats[(p, t, topic)] = ast(tpl) if tpl is not None else []
+            if tpl is None:  # malformed upstream category; don't let it override a real one
+                return
+            cats[(p, t, topic)] = ast(tpl)
 
         for node in root:
             if node.tag == "category":

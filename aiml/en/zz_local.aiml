@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- Local overrides for the web greeting ("Hi! My name is ALICE, what's yours?"). -->
+<category><pattern>I AM *</pattern>
+<that>MY NAME IS ALICE WHAT IS YOURS</that>
+<template><srai>MY NAME IS <star/></srai></template>
+</category>
+</aiml>

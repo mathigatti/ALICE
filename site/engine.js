@@ -261,7 +261,7 @@ class Bot {
 }
 
 function clean(s) {
-  return s.replace(/[ \t]+/g, " ").replace(/ *\n */g, "\n").replace(/ ([,.!?;:])/g, "$1").trim();
+  return s.replace(/[ \t]+/g, " ").replace(/ *\n */g, "\n").replace(/ ([,.!?;:])/g, "$1").replace(/([!?])\.(?!\.)/g, "$1").trim();
 }
 
 function strftime(fmt, d, locale) {

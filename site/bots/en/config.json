@@ -3,6 +3,7 @@
  "locale": "en-US",
  "connect": "CONNECT",
  "defaultPredicate": "OM",
+ "fallback": "I'm not sure what to say to that. Could you put it another way?",
  "stripAccents": false,
  "ui": {
   "placeholder": "Say something to ALICE…",
@@ -405,6 +406,18 @@
    [
     "st.",
     "st"
+   ],
+   [
+    "favourite",
+    "favorite"
+   ],
+   [
+    "favourites",
+    "favorites"
+   ],
+   [
+    "colour",
+    "color"
    ]
   ],
   "person": [
